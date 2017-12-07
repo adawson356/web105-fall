@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tables Page 1</title>
+	<style>
+		body {
+			font-family: arial;
+		}
+		table{
+			width: 95%;
+			border-spacing: 10%;	
+		}
+		th{
+			color: darkgreen;
+			text-align: center;
+			padding: 15px;
+			text-transform: uppercase;
+		}
+		td{
+			text-align: center;
+		}
+		.headerrow th {
+			border-bottom: 3px double black; 
+		}
+		.headercol th {
+			border-right: 3px double orange; 
+		}
+		table, td, th {
+			border: 1px solid black;
+		}
+		td, th {
+			padding: 15px;
+		}
+		nav {
+			text-align: center;
+		
+		nav a {
+            padding: 5px 10px;
+            margin: 5px 15px;
+            background: lightgray;
+            border: 4px brown solid;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 700;
+            color: blueviolet;	
+		}
+		.oddrow {
+			background-color: greenyellow;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1 style="text-align:center;">Styling a Table</h1>
+		<nav>
+			<a href="tables.html">Basic Table</a>
+			<a href="table1.html">Styling a Table</a>
+			<a href="table2.html">Calendar</a>
+		</nav>
+	</header>
+	<main>
+		<table>
+			<tr class="headerrow">
+				<th>header</th>
+				<th>header</th>
+				<th>header</th>
+				<th>header</th>
+				<th>header</th>
+			</tr>
+			<!--(tr>th+td*4)*4-->
+			<tr class="headercol">
+				<th>header</th>
+				<td colspan="2" style="background: cyan;">cell</td>
+				<td>cell</td>
+				<td>cell</td>
+			</tr>
+			<tr class="headercol">
+				<th>header</th>
+				<td>cell</td>
+				<td>cell</td>
+				<td rowspan="3" style="background-color: darkorange; color: white;">cell</td>
+				<td>cell</td>
+			</tr>
+			<tr class="headercol">
+				<th>header</th>
+				<td>cell</td>
+				<td>cell</td>
+				<td>cell</td>
+			</tr>
+			<tr class="headercol">
+				<th>header</th>
+				<td>cell</td>
+				<td>cell</td>
+				<td>cell</td>
+			</tr>
+		</table>
+	</main>
+	
+</body>
+</html>

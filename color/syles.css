@@ -1,0 +1,61 @@
+.splash {
+    width: 15%;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#vividblue {
+    background: #27657F;
+}
+#periwinkle {
+    background: #9AE2FF;
+}
+#sky {
+    background: #4FCCFF;
+}
+#grayblue {
+    background: #4E717F;
+}
+#bluish {
+    background: #3FA3CC;
+}
+h1{
+	color: #27657F;
+}
+h2{
+	color: #9AE2FF;
+}
+h3{
+	color: #4FCCFF;
+}
+h4{
+	color: #4E717F;
+}
+h5{
+	color: #3FA3CC;
+}
+
+a {
+    text-decoration: none;
+    color: #3FA3CC;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #795548;
+}
+
+a:visited {
+    color: #5D4037;
+}
+
+header {
+    background: #795548;
+    font-weight: 800;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}

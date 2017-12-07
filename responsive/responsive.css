@@ -1,0 +1,205 @@
+@viewport {
+    width: device-width;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    background-color: dimgray;
+}
+
+#container {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+
+/* for mobile */
+
+h1,
+h2 {
+    text-align: center;
+}
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+
+
+/* For mobile phones: */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 400px) {
+    /* For tablets: */
+    background-color: green;
+    .col-m-1 {
+        width: 8.33%;
+    }
+    .col-m-2 {
+        width: 16.66%;
+    }
+    .col-m-3 {
+        width: 25%;
+    }
+    .col-m-4 {
+        width: 33.33%;
+    }
+    .col-m-5 {
+        width: 41.66%;
+    }
+    .col-m-6 {
+        width: 50%;
+    }
+    .col-m-7 {
+        width: 58.33%;
+    }
+    .col-m-8 {
+        width: 66.66%;
+    }
+    .col-m-9 {
+        width: 75%;
+    }
+    .col-m-10 {
+        width: 83.33%;
+    }
+    .col-m-11 {
+        width: 91.66%;
+    }
+    .col-m-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    /* For Desktop */
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: auto;
+}
+
+@media only screen and(orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.button {
+    box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 10px;
+    background: lightblue;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+}
+
+a .button {
+    text-decoration: none;
+}
+
+a .button:hover {
+    background: darkblue;
+    color: ivory;
+}
+
+a .button:visited {
+    background: lightgrey;
+    border: cadetblue;
+}
+
+#masthead {
+    max-width: 90%;
+    background: navy;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    color: lightblue;
+    font-size: 1.5em;
+    box-sizing: content-box;
+    margin: 15px auto;
+	border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+#masthead a {
+	float: right;
+    box-sizing: border-box;
+    color: ivory;
+    padding: 30px 20px;
+    font-weight: 700;
+    margin: 10px;
+    border-radius: 100%;
+    background: darkblue;
+    border: 4px solid darkblue;
+    text-decoration: none;
+}
+
+#masthead a:hover {
+    color: darkblue;
+    background: ivory;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.margin-top{
+	margin-top: 300px;
+}

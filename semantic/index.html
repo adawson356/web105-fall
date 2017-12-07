@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic Design
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+		function change01(){
+document.getElementById("large").src="tower1.jpg";
+}
+
+function change02(){
+document.getElementById("large").src="treat.jpg";
+}
+
+function change03(){
+document.getElementById("large").src="inside.jpg";
+}
+
+function change04(){
+document.getElementById("large").src="unstable.png";
+}
+
+function change05(){
+document.getElementById("large").src="pisa.jpg";
+}
+
+	</script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Getting High with Water Towers</h1><img src="tower1.jpg" alt="image">
+            <nav>
+                <ul>
+                    <!-- (li>a)*4 -->
+                    <li>
+                        <a href="index.html" id="current">Home</a>
+                    </li>
+                    <li>
+                        <a href="page2.html">How it Works</a>
+                    </li>
+                    <li>
+                        <a href="page3.html">Inside</a>
+                    </li>
+                    <li>
+                        <a href="page4.html">Energy</a>
+                    </li>
+                    <li>
+                        <a href="page5.html">Illinois Towers</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </header>
+        <main>
+            <div class="images">
+                <a href="#large"><img src="tower1.jpg" alt="water tower" onclick="change01()"></a>
+                <a href="#large"><img src="treat.jpg" alt="water treatment plant" onclick="change02()"></a>
+                <a href="#large"><img src="inside.jpg" alt="internal" onclick="change03()"></a>
+                <a href="#large"><img src="unstable.png" alt="ball on hill" onclick="change04()"></a>
+                <a href="#large"><img src="pisa.jpg" alt="leaning water tower" onclick="change05()"></a>
+            </div>
+            <!-- p>lorem*3 -->
+            <p>
+                <span>Working together: water treatment plant and water tower./
+                </span>
+                <span>Inside a Water Tower/
+                </span>
+                <span>Energy/
+                </span>
+                <span>Notable Water Towers/
+                </span>
+            </p>
+            <img src="tower1.jpg" alt="watertower" id="large">
+
+        </main>
+        <footer>
+            <ul>
+                <!-- (li>a)*3 -->
+                <li>
+                    <a href="index.html">Home</a> |
+                </li>
+                <li>
+                    <a href="page2.html">How it Works</a> |
+                </li>
+                <li>
+                    <a href="page3.html">Inside</a> |
+                </li>
+            
+            	<li>
+                    <a href="page4.html">Energy</a> |
+                </li>
+                <li>
+                    <a href="page5.html">Illinois Towers</a> |
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

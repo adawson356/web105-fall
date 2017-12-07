@@ -1,0 +1,128 @@
+html { 
+  background: url(sharing.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+	max-width: 960px;
+	border: 3px black;
+	border-radius: 20px;
+	margin: 5px auto; 
+	background: rgba(255, 255, 255, 0.8);
+	min-height: 500px;
+	padding: 0;
+}
+.container1{
+	max-width: 960px;
+	border: 3px black;
+	border-radius: 20px;
+	margin: 5px auto; 
+	background: rgba(255, 255, 255, 0.2);
+	background-color: black;
+	min-height: 100px;
+	padding: 0;
+}
+#list1 {
+    text-align: left;
+    width: 30%;
+    margin: 30px auto;
+}
+nav li a,
+#list2 li a{
+    text-align: center;
+   	padding: 10px 50px;
+   	margin: 15px 15px;
+	line-height: 1;
+   	background: yellow;
+   	border: 1px black solid;
+   	border-radius: 5px;
+   	text-decoration: none;
+   	font-weight: 700;
+   	color: black;}
+nav li,
+#list2 li {
+	display: inline-block;
+	list-style-type: none;
+}
+nav{
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	margin: 0;
+}	
+h1 {
+	padding: 10px 10px;
+	background: rgba(0, 0, 0, .1);
+	text-align: center;
+	font-size: 2.2em;
+    color: yellow;
+    font-family: sans-serif;
+}
+img {
+	padding: 0px;
+    margin: 0px;
+    border: 2px;
+    width: 15%;
+    height: auto;
+}
+
+#lists img {
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid blue;
+}
+
+#divs img {
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid blue;
+    box-sizing: border-box;
+}
+main{
+	width: 100%;
+	margin: 0;
+	background-image: url(wheel.png);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: bottom right;
+	min-height: 550px;
+	padding: 10px 10px;
+}
+h1{color: yellow;
+	font-weight: 600}
+h2,
+h3{color: darkblue;
+	font-weight: 600}
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    background: purple;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    background: purple;
+    display: inline;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    background: purple;
+    display: inline-block;
+}
+
+  
+  
+

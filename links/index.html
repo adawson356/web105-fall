@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Links</title>
+    <style>
+        body {
+            background-color: darkcyan;
+            color: azure;
+            font-family: : arial, verdana, sans-serif;
+        }
+        
+        nav: {
+            text-align: center;
+        }
+        
+        nav a {
+            padding: 5px 10px;
+            margin: 5px 15px;
+            background: lightgray;
+            border: 4px brown solid;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 700;
+            color: blueviolet;
+        }
+        
+        nav a:hover {
+            color: lightgray;
+            background: blueviolet;
+            border: 4px brown solid;
+        }
+        
+        .container {
+            max-width: 600px;
+            min-height: 250px;
+            margin: 15px auto;
+            background-color: lemonchiffon;
+            color: black;
+            border: 5px solid brown;
+            border-radius: 20px;
+            clear: both;
+            overflow: auto;
+            padding: 30px;
+        }
+        
+        h1,
+        h2 {
+            text-align: center;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: darkslategrey
+        }
+        
+        ul {
+            list-style-type: disc;
+        }
+        
+        a {
+            color: blueviolet;
+        }
+        
+        ul.a {
+            list-style-type: square;
+            list-style-position: inside;
+            padding-left: 20 px;
+            line-height: normal;
+        }
+        
+        .roman {
+            list-style-type: upper-roman;
+            list-style-position: inside;
+            padding-left: 20 px;
+            line-height: normal;
+        }
+        
+        .alpha {
+            list-style-type: upper-alpha;
+            list-style-position: inside;
+            padding-left: 20 px;
+            line-height: normal;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="container" id="top">
+        <h1>Recycling Strategies</h1>
+        <nav>
+            <a href="#mattress">Mattress</a>
+            <a href="#wood">Wood</a>
+            <a href="#compost">Compost</a>
+            <a href="#peanuts">Styrofoam</a>
+            <a href="#plastic">Plastic</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="mattress">
+            <h2>What do you do with your old mattress?</h2>
+            <ul>
+                <li class="a">
+                    <a href="https://byebyemattress.com/" target="_blank">ByeByeMattress
+       	 </a></li>
+                <li class="a"><a href="http://www.goodwillduluth.org/recycling/" target="_blank">Goodwill Recycling</a></li>
+                <li class="a"><a href="https://dolly.com/blog/5-responsible-ways-get-rid-mattress/" target="_blank">Do it yourself?</a></li>
+            </ul>
+        </div>
+        <div class="container" id="wood">
+            <h2>Treated products, Tricks for the Treated</h2>
+            <ul>
+                <li class="roman"><a href="https://www.pca.state.mn.us/living-green/treated-wood-residential-use" target="_blank">fact sheet</a></li>
+                <li class="roman"><a href="https://www.epa.gov/sites/production/files/2016-11/documents/kit_2_fast_facts.pdf" target="_blank">Do not burn treated wood!</a></li>
+                <li class="roman"><a href="http://www.gw.govt.nz/assets/RelocatedUploads/Adlam205/Burning-issues-brochure.pdf" target="_blank">arsenic in treated wood</a></li>
+                <li class="roman"><a href="https://www.pinterest.com/lindapie7/pressure-treated-wood-repurposed/" target="_blank">Make something Pretty</a></li>
+            </ul>
+        </div>
+        <div class="container" id="compost">
+            <h2>What NOT to compost?</h2>
+            <ol>
+                <li style="list-style-type: none">
+                    <a href="https://pixabay.com/en/rat-mouse-cheese-animal-mammal-152162/" target="_blank"><img src="rat.png" alt="rat" width="100"></a>
+                </li>
+                <li class="alpha"><a href="http://www.wikihow.com/Get-Rats-and-Mice-out-of-Compost" target="_blank">rats in the compost</a></li>
+                <li class="alpha"><a href="https://www.mnn.com/lifestyle/recycling/stories/30-things-you-should-never-compost-or-recycle" target="_blank">walnuts and milk are not to be composted...</a></li>
+                <li class="alpha"><a href="http://www.homecompostingmadeeasy.com/foodscraps.html" target="_blank">composting tips</a></li>
+            </ol>
+        </div>
+        <div class="container" id="peanuts">
+            <h2>digesting styrofoam peanuts</h2>
+            <ul>
+                <li><a href="https://www.scientificamerican.com/article/pesky-packing-peanuts-baked-and-crushed-to-make-battery-electrodes/" target="_blank">Peanuts to electrodes</a></li>
+                <li> <a href="http://mcdef.org/recycling/defenders-recycling-drive-info" target="_blank">Environmental Defenders Recycling Drive</a></li>
+                <li><a href="https://curiosity.com/videos/never-throw-packing-peanuts-away-tech-insider/" target="_blank">Reuse the suckers</a></li>
+            </ul>
+        </div>
+        <div class="container" id="plastic">
+            <h2>Plastic Bag Islands</h2>
+            <ul>
+                <li><a href="https://www.nationalgeographic.org/encyclopedia/great-pacific-garbage-patch/" target="_blank">Pacific Garbage Island</a></li>
+                <li><a href="https://www.jewelosco.com/our-company/reduce-reuse-recycle/" target="_blank">bring it to Jewel</a></li>
+                <li><a href="https://livegreen.recyclebank.com/because-you-asked-is-bubble-wrap-recyclable" target="_blank">no trouble mixing bubble wrap with bags</a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>

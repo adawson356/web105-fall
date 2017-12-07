@@ -1,0 +1,101 @@
+/* SIMPLE RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial, helvetica, sans-serif;
+}
+header h1{text-align: center}
+
+h1 {
+    margin: 0px 30px;
+    font-size: 30x;
+	float: center;
+/*    <!-- float: left; -->*/
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+}
+
+nav {
+    width: 65%;
+    text-align: center;
+    margin: 3px auto;
+    margin-top: 60px;
+	min-height: 50px;
+}
+
+nav a {
+    padding: 15px 30px;
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    background-color: lightgray;
+    margin-left: -5px;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin: 5px;
+}
+header {
+	padding: 15px;
+	min-height: 20px;
+	
+}
+header,
+footer,
+main {
+    border: 2px solid black;
+    min-height: 40px;
+    overflow: auto;
+}
+
+main {
+    padding: 5px;
+}
+
+.images {
+    width: 90%;
+    margin: 5px auto;
+}
+
+.images img {
+    width: 15%;
+    height: 100px;
+    margin: 10px 2%;
+}
+
+p {
+	text-align: left;
+    margin: 15px 30px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+
+footer a {
+    padding: 20px;
+}
+
+nav a:hover {
+    background: #512DA8;
+    color: #ffffff;
+}
+.container, #sound1, #sound2, #sound3, #sound4, #sound5 {
+    max-width: 1060px;
+    margin: 10px auto;
+    min-height: 500px;
+}

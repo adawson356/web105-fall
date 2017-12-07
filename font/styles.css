@@ -1,0 +1,82 @@
+html { 
+  background: url(sharing.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+	max-width: 1600px;
+	border: 3px black;
+	border-radius: 20px;
+	margin: 5px auto; 
+	background: rgba(255, 255, 255, 0.2);
+	min-height: 500px;
+	padding: 0;
+}
+nav a {
+    text-align: center;
+   	padding: 5px 10px;
+   	margin: 5px 75px;
+   	background: lightblue;
+   	border: 1px black solid;
+   	border-radius: 5px;
+   	text-decoration: none;
+   	font-weight: 700;
+   	color: black;}
+nav{
+	margin: auto;
+	display: block;
+}
+#serif {
+font-family: 'Gentium Book Basic', serif;
+}
+}
+#sans-serif {
+font-family: 'PT Sans', sans-serif;
+}
+#display {
+font-family: 'Metal Mania', cursive;
+}
+#writing {
+font-family: 'Dancing Script', cursive;
+}
+#monospace {
+font-family: 'Nova Mono', monospace;
+}
+header {
+	width: 100%;
+	margin: 0;
+	background-image: url(massage.jpg);
+	background-repeat: repeat;
+	background-attachment:fixed;
+	background-position: 0px 0px;
+	min-height: 200px;
+}	
+h1 {
+	padding: 10px 10px;
+	background: rgba(0, 0, 0, .4);
+	text-align: center;
+	font-size: 2.2em;
+	text-shadow:0px 0px 8px rgba(0, 0, 0,1);
+    color: lightcyan;
+    font-family: sans-serif;
+}		
+main{
+	width: 100%;
+	margin: 0;
+	background-image: url(bonding2.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: bottom right;
+	min-height: 550px;
+	padding: 10px 10px;
+}
+h1,
+h2,
+h3{i{color: brown;
+	font-weight: 600}
+}
+  
+  
+

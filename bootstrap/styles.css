@@ -1,0 +1,28 @@
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    color: rebeccapurple;
+}
+
+.container {
+    border: 2px solid rebeccapurple;
+    border-radius: 20px;
+}
+
+.row {
+    border: 3px solid green;
+}
+
+.img-fluid {
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+}

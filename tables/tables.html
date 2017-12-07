@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tables Page 1</title>
+	<style>
+		body {
+			font-family: arial;
+		}
+		table{
+			width: 95%;
+			border-spacing: 10px;	
+		}
+		th{
+			text-align: left;
+		}
+		table, td, th {
+			border: 1px solid black;
+		}
+		td, th {
+			padding: 15px;
+		}
+		nav {
+			text-align: center;
+		}
+		nav a{
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<header>
+		<h1>
+		Creating a Basic Table
+		</h1>
+		<nav>
+			<a href="tables.html">Basic Table</a>
+			<a href="table1.html">Styling a Table</a>
+			<a href="table2.html">Calendar</a>
+		</nav>
+	</header>
+	<main>
+		<table>
+			<caption>This is a table!</caption>
+			<tr>
+				<th>header</th>
+				<th>header</th>
+				<th>header</th>
+				<th>header</th>
+				<th>header</th>
+			</tr>
+			<!--(tr>th+td*4)*4-->
+			<tr>
+				<th>header</th>
+				<td colspan="2" style="background: pink; font-weight: 600;">span 2 columns</td>
+				<td>cell</td>
+				<td>cell</td>
+			</tr>
+			<tr>
+				<th>header</th>
+				<td>cell</td>
+				<td>cell</td>
+				<td rowspan="3" style="background-color: darkgrey; color: white;font-weight: 600;">3 rows</td>
+				<td>cell</td>
+			</tr>
+			<tr>
+				<th>header</th>
+				<td>cell</td>
+				<td>cell</td>
+				<td>cell</td>
+			</tr>
+			<tr>
+				<th>header</th>
+				<td>cell</td>
+				<td>cell</td>
+				<td>cell</td>
+			</tr>
+		</table>
+	</main>
+	</div>
+	
+</body>
+</html>

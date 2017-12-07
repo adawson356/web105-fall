@@ -1,0 +1,18 @@
+dt a {
+    color: blue;
+    line-height: 1.4;
+}
+
+dd {
+    color: navy;
+    font-family: cursive;
+}
+
+header {
+    color: firebrick;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: cornsilk;
+}
